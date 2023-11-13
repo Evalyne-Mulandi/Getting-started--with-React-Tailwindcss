@@ -1,0 +1,94 @@
+.App {
+  text-align: start;
+  background-color: aliceblue;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+ 
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* src/components/navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+ 
+  color: black;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+
+/* src/components/main.css */
+ /* src/components/main.css */
+
+.main {
+  text-align: center;
+  padding: 100px;
+  margin: 1rem auto; /* Auto margin horizontally centers the element */
+  max-width: 1000px; /* Set a maximum width for the content */
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin-top: 1rem;
+  margin-left:100px;
+  max-width: 700px; /* Set a maximum width for the content */
+}
+
+button {
+  margin-top: 1rem; /* Add some space between the paragraph and the button */
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
